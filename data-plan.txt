@@ -1,0 +1,26 @@
+Trader:
+- walletAddress: String (e.g., "4sG...xyz" - Solana public key)
+- trades: Array[
+  - token: String (e.g., "SOL" or token mint address like "So111...111")
+  - buyTimestamp: Date (e.g., "2025-03-13T10:00:00Z" - when they bought)
+  - sellTimestamp: Date or null (e.g., "2025-03-13T10:05:00Z" or null if still holding)
+  - holdDuration: Number (seconds, e.g., 300 for 5 minutes)
+]
+- avgHoldTime: Number (seconds, e.g., 1800 for 30 minutes average across trades)
+
+Rankings:
+- Jeets: Sort avgHoldTime ASC (shortest holders at top)
+- Chads: Sort avgHoldTime DESC (longest holders at top)
+
+
+Initial Wallets:
+1. [DfMxre4cKmvogbLrPigxmibVTTQDuzjdXojWzjCXXhzj] Euris
+2. [JDd3hy3gQn2V982mi1zqhNqUw1GfV2UL6g76STojCJPN] West
+3. [CyaE1VxvBrahnPWkqm5VsdCvyS2QmNht2UFrKJHga54o] Cented
+4. [BCnqsPEtA1TkgednYEebRpkmwFRJDCjMQcKZMMtEdArc] Kreo
+5. [73LnJ7G9ffBDjEBGgJDdgvLUhD5APLonKrNiHsKDCw5B] Waddles
+6. [BTf4A2exGK9BCVDNzy65b9dUzXgMqB4weVkvTMFQsadd] Kev
+7. [7ABz8qEFZTHPkovMDsmQkm64DZWN5wRtU7LEtD2ShkQ6] Red
+8. [F2SuErm4MviWJ2HzKXk2nuzBC6xe883CFWUDCPz6cyWm] Earl
+9. [AJ6MGExeK7FXmeKkKPmALjcdXVStXYokYNv9uVfDRtvo] Tim
+10. [GJA1HEbxGnqBhBifH9uQauzXSB53to5rhDrzmKxhSU65] Latuche
