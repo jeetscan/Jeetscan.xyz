@@ -35,7 +35,6 @@ Updates: Runs every 2 minutes and resets daily at 12:AM EST.
 Limitations:
 No profit/loss tracking yet.
 
-
-
-
+Offial X: https://x.com/jeet_scan
+Offial Website: https://jeetscan.xyz/
 
